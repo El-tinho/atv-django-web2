@@ -1,0 +1,13 @@
+<h1>Lista de Posts</h1>
+
+{% for post in posts %}
+
+<h2>{{ post.titulo }}</h2>
+<p>{{ post.data_publicacao }}</p>
+<p>Tag: {{ post.tag.nome }}</p>
+
+<a href="/post/{{ post.id }}/">Ver post</a>
+
+<hr>
+
+{% endfor %}
