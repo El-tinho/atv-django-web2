@@ -12,7 +12,11 @@ Ter a versão do Python utilizada ou compatível com a versão do Django utiliza
 ```
 cd \caminho-do-projeto
 ```
-3. Ative o ambiente virtual:
+3. Crie o ambiete virtual:
+```
+python -m venv venv
+```
+5. Ative o ambiente virtual:
 #### Windows:
 ```
 .\venv\Scripts\activate
