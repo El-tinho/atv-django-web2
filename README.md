@@ -16,6 +16,10 @@ cd \caminho-do-projeto
 ```
 python -m venv venv
 ```
+4. Instale o Django no ambiente virtual:
+```
+pip install django
+```
 5. Ative o ambiente virtual:
 #### Windows:
 ```
@@ -29,7 +33,7 @@ OBS: Ao terminar, desative o ambiente virtual:
 ```
 deactivate
 ```
-4. Execute o seguinte comando:
+6. Execute o seguinte comando:
 ```
 python manage.py runserver
 ```
@@ -47,12 +51,13 @@ Quit the server with CTRL-BREAK.
 WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
 For more information on production servers see: https://docs.djangoproject.com/en/6.0/howto/deployment/
 ```
-5. Pesquise no seu navegador por "http://127.0.0.1:8000/" ou use CTRL + C para acessar o link na linha "Starting development server at http://127.0.0.1:8000/".
-6. Para testar a página de administrador, basta adicionar "/admin" ao final da URL da página, ficando da seguinte forma:
+7. Pesquise no seu navegador por "http://127.0.0.1:8000/" ou use CTRL + C para acessar o link na linha "Starting development server at http://127.0.0.1:8000/".
+
+8. Para testar a página de administrador, basta adicionar "/admin" ao final da URL da página, ficando da seguinte forma:
 ```
 http://127.0.0.1:8000/admin
 ```
-7. Você pode criar um administrador Django para testar a aba de administrador usando o comando:
+9. Você pode criar um administrador Django para testar a aba de administrador usando o comando:
 ```
 python manage.py createsuperuser
 ```
